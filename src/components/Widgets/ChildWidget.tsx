@@ -1,7 +1,7 @@
 // ChildWidget Component
 import React, { useState } from 'react'
 
-const ChildWidget = ({ title, metadata }) => {
+const ChildWidget = ({ title, metadata }: any) => {
   return (
     <div className="space-y-4">
       <div className="border-b pb-2">
